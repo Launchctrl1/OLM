@@ -1,0 +1,605 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17698004793e8b2e9f": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_WMHT6j": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/image_8.png",
+            "mobile_background_image": "shopify://shop_images/Screenshot_2026-01-27_160932.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Pre-Order Now",
+            "button_one_link": "https://olm.com/search?q=Sokudo",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 1
+          }
+        },
+        "slide_kLBpzY": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/1_3c15edd0-20f8-46c1-a50c-843dd4b47855.png",
+            "mobile_background_image": "shopify://shop_images/VB_Mafia_Mobile.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "@vbmafia",
+            "button_one_link": "https://www.instagram.com/vbmafia?igsh=MzRlODBiNWFlZA==",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 1
+          }
+        },
+        "slide_AKN3UH": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/OLM_BF_2.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "slide_4Hk7VM": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Raiden_Taillights_are_coming....png",
+            "title": "IN STOCK!",
+            "text": "Exclusively for 2022+ BRZ / GR86",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Raiden Taillights",
+            "button_one_link": "https://olm.com/search?q=raiden",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "slide_Gq4NGN": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/1.png",
+            "mobile_background_image": "shopify://shop_images/6spdvb_Spotlight_Mobile.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 1
+          }
+        },
+        "slide_4rWNxQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/awk.wrx_Spotlight_Banner_5e8f2dcf-3465-46c8-8df8-952e6201d078.png",
+            "mobile_background_image": "shopify://shop_images/awk.wrx_Mobile_Banner_6ea7955f-d6c7-4752-bcd9-49ad78ccdf4c.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 12
+          }
+        },
+        "slide_r4bnTy": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Look_sharp._Drive_proud._Trust_OLM..png",
+            "mobile_background_image": "shopify://shop_images/Look_Sharp_Mobile_Banner.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "@OutsideLineMotoring",
+            "button_one_link": "https://www.instagram.com/outsidelinemotoring?igsh=MzRlODBiNWFlZA==",
+            "button_one_style": "secondary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 18
+          }
+        },
+        "slide_LgFmix": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/carrousel-1.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "shopify://collections/olm-y-spec-taillights",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "https://olm.com/collections/olm-y-spec-taillights",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "44bf4598-1a01-49df-8c19-75aacb0d2107": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/BRZ-Sale_banner_01.jpg",
+            "title": "86MAS SALE",
+            "text": "Save up to 45% off on all OLM BRZ / FRS / 86 Products!",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "SHOP NOW",
+            "button_one_link": "shopify://collections/brz-products",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "db5af62b-27db-4f51-9e7a-707a39e85394": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/tailsthesti2.0_Spotlight_Banner3.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 11
+          }
+        },
+        "slide_HLnfWb": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/Subaru-06_1_1.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Headlights",
+            "button_one_link": "shopify://collections/headlight-assembly",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#201e1e",
+            "overlay_opacity": 1
+          }
+        },
+        "slide_KTtnhh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/OLM_Gamma_Banner.jpg",
+            "title": "Gamma Series RGB Headlights",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Gamma Series",
+            "button_one_link": "https://olm.com/search?q=gamma+series",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "72a086ef-33e3-409c-94ff-9801274d2b11": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/OLM-ShipsFree.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 1
+          }
+        }
+      },
+      "block_order": [
+        "slide_WMHT6j",
+        "slide_kLBpzY",
+        "slide_AKN3UH",
+        "slide_4Hk7VM",
+        "slide_Gq4NGN",
+        "slide_4rWNxQ",
+        "slide_r4bnTy",
+        "slide_LgFmix",
+        "44bf4598-1a01-49df-8c19-75aacb0d2107",
+        "db5af62b-27db-4f51-9e7a-707a39e85394",
+        "slide_HLnfWb",
+        "slide_KTtnhh",
+        "72a086ef-33e3-409c-94ff-9801274d2b11"
+      ],
+      "custom_css": [
+        ".banner__buttons {position: absolute; top: 10%;}"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "fit_screen",
+        "slideshow_height_mobile": "x-large",
+        "slideshow_text_below_image": false
+      }
+    },
+    "1698756523ef717efe": {
+      "type": "apps",
+      "blocks": {
+        "f5415b58-63fe-43e7-8c58-7e8053b61e06": {
+          "type": "shopify://apps/c-year-make-model-search/blocks/ymm-searchbox-pro/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "disabled": true,
+          "settings": {
+            "searchbox_title": "Search By Year, Make and Model"
+          }
+        }
+      },
+      "block_order": [
+        "f5415b58-63fe-43e7-8c58-7e8053b61e06"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_featured_collection_7wDkkA": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "layout": "grid",
+        "collection": "highlighted-products",
+        "product_count": 10,
+        "cta_label": "Shop More",
+        "cta_button_style": "primary"
+      }
+    },
+    "pxs_newsletter_ACtWVY": {
+      "type": "pxs-newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "text": "<p>Join our mailing list to be the first to know about sales, promotions, and new product releases!</p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-rating-five-star",
+            "title": "QUALITY",
+            "text": "<p>We aim to exceed customer expectations in both the design and function of our products.</p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-discount",
+            "title": "Affordability",
+            "text": "<p>We do everything we can to keep our products affordable without compromising on quality.</p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "US Based Customer Support",
+            "text": "<p>Our knowledgeable and friendly sales support teams are here to assist you at every stage – from your initial inquiry, throughout the purchase process, and even after your purchase is complete.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#046e82",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kyle_WRX-43.jpg",
+            "title": "Taillights",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/tail-light-assembly",
+            "button_text": "Shop Taillights",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 20
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/25f4e9cfd5127c39242d091a93f875fe.jpg",
+            "title": "Fog Lights",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/fog-light-assembly",
+            "button_text": "Shop Fog Lights",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 20
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/OLM_Headlight_bulb.webp",
+            "title": "LED Bulbs",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/bulbs-consumables",
+            "button_text": "Shop LED Bulbs",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 20
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/hfmz97obr6vx9wudvhks.jpg",
+            "title": "Headlights",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/headlight-assembly",
+            "button_text": "Shop Headlights",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "",
+            "opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-3",
+        "promotion-2",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_promo_grid-2": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Interior_2.jpg",
+            "title": "Interior Accessories",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/interior",
+            "button_text": "Shop Interior",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 20
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3784.jpg",
+            "title": "Exterior Accessories",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/exterior",
+            "button_text": "Shop Exterior",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 2,
+        "text_alignment": "center-left"
+      }
+    },
+    "dynamic_testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "circle",
+        "text_size": "large"
+      }
+    }
+  },
+  "order": [
+    "17698004793e8b2e9f",
+    "dynamic_slideshow",
+    "1698756523ef717efe",
+    "dynamic_featured_collection_7wDkkA",
+    "pxs_newsletter_ACtWVY",
+    "dynamic_highlights_banner",
+    "dynamic_promo_mosaic",
+    "dynamic_promo_grid-2",
+    "dynamic_testimonials"
+  ]
+}

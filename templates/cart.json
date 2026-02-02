@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-cart",
+      "settings": {
+        "show_sku": false,
+        "enable_order_notes": false,
+        "enable_shipping_calc": true,
+        "shipping_calc_default_country": "United States"
+      }
+    },
+    "175640272328b066f3": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_solution_nt_CacGYA": {
+          "type": "shopify://apps/bss-b2b-solution/blocks/nt/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+          "settings": {
+            "text_color": "#ffffff",
+            "background_color": "#121212",
+            "button_width": 350,
+            "button_height": 48,
+            "align_button": "right",
+            "display_text": "Pay later"
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_solution_nt_CacGYA"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "17564039033d24d1ce": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_solution_nt_HLTtgq": {
+          "type": "shopify://apps/bss-b2b-solution/blocks/nt/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+          "settings": {
+            "text_color": "#ffffff",
+            "background_color": "#121212",
+            "button_width": 350,
+            "button_height": 48,
+            "align_button": "right",
+            "display_text": "Pay later"
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_solution_nt_HLTtgq"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "17564289400a8f0db1": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_solution_te_H7RGtW": {
+          "type": "shopify://apps/bss-b2b-solution/blocks/te/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+          "settings": {
+            "error_color": "#ff0000",
+            "success_color": "#00ff00",
+            "header_text_color": "#000000",
+            "subtitle_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_solution_te_H7RGtW"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "1760036022152fd3f2": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_solution_dc_form_XxqaPK": {
+          "type": "shopify://apps/bss-b2b-solution/blocks/dc-form/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+          "settings": {
+            "error_color": "#FF0000",
+            "success_color": "#00FF00"
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_solution_dc_form_XxqaPK"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "175640272328b066f3",
+    "17564039033d24d1ce",
+    "17564289400a8f0db1",
+    "1760036022152fd3f2"
+  ]
+}

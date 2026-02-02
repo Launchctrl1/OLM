@@ -1,0 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "menu_3": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "79008ac5-7378-456c-b465-41eaf6a9810f": {
+          "type": "rich_text",
+          "settings": {
+            "title": "OLM - Outside Line Motoring",
+            "text": ""
+          }
+        },
+        "945d1251-91fe-4b1c-87bb-333b4a7b1209": {
+          "type": "social_accounts",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "menu_3",
+        "79008ac5-7378-456c-b465-41eaf6a9810f",
+        "945d1251-91fe-4b1c-87bb-333b4a7b1209"
+      ],
+      "settings": {
+        "show_follow_on_shop": false,
+        "payment_icons": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "additional_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

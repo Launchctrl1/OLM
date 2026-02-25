@@ -313,52 +313,40 @@
 
   <script type="application/ld+json">
   {% comment %}Start Bsscommerce HPOGS{% endcomment %}{% capture bss_lock_check %}{% render 'bss-lock-condition', scope: 'subject', subject: product, subject_parent: product, variable: 'hpogg' %}{% endcapture %}{% capture product_schema %}{
-    "@context": "http://schema.org/",
-    "@type": "Product",
-    "name": {{ product_name | strip_newlines | json }},
-    "image": {{ product_image | img_url: '1024x1024' | prepend: 'https:' | json }},
-    {% if product.description != blank %}
-      "description": {{ product.description | json }},
-    {% endif %}
-    {% if product.vendor %}
-      "brand": {
-        "@type": "Brand",
-        "name": {{ product.vendor | json }}
-      },
-    {% endif %}
-    {% if selected_variant.sku != blank %}
-      "sku": {{ selected_variant.sku | json }},
-    {% endif %}
-    {% if selected_variant.barcode != blank %}
-      "mpn": {{ selected_variant.barcode | json }},
-    {% endif %}
-    {% if product.metafields.reviews.rating.value != blank %}
-      "review": {
-        "@type": "Review",
-          "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "{{ product.metafields.reviews.rating.value }}"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "{{ product.metafields.reviews.rating.value }}",
-        "reviewCount": "{{ product.metafields.reviews.rating_count }}"
-      },
-    {% endif %}
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": {{ cart.currency.iso_code | json }},
-      "price": {{ selected_variant.price | divided_by: 100.0 | json }},
-      "availability": "http://schema.org/{% if selected_variant.available %}InStock{% else %}OutOfStock{% endif %}",
-      "url": "{{ shop.url }}{{ selected_variant.url }}",
-      "seller": {
-        "@type": "Organization",
-        "name": {{ shop.name | json }}
-      },
-      "priceValidUntil": {{ year_from_now | json }}
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": {{ product.title | strip_newlines | json }},
+  "image": [{{ product.featured_image | img_url: '1024x1024' | prepend: 'https:' | json }}],
+  "description": {{ product.description | strip_html | json }},
+  "brand": {
+    "@type": "Brand",
+    "name": {{ product.vendor | json }}
+  },
+  "sku": {{ selected_variant.sku | json }},
+  "mpn": {{ selected_variant.barcode | json }},
+  {% if product.metafields.reviews.rating.value != blank %}
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ product.metafields.reviews.rating.value }},
+    "reviewCount": {{ product.metafields.reviews.rating_count }},
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  {% endif %}
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ shop.url }}{{ selected_variant.url }}",
+    "priceCurrency": "{{ cart.currency.iso_code }}",
+    "price": {{ selected_variant.price | divided_by: 100.0 }},
+    "availability": "https://schema.org/{% if selected_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "name": {{ shop.name | json }}
     }
-  }{% endcapture %}{% render 'bss-lock-hpogs', product: product, product_schema: product_schema, bss_lock_check: bss_lock_check %}{% comment %}End Bsscommerce HPOGS{% endcomment %}
+  }
+}
+{% endcapture %}{% render 'bss-lock-hpogs', product: product, product_schema: product_schema, bss_lock_check: bss_lock_check %}{% comment %}End Bsscommerce HPOGS{% endcomment %}
   </script>
 {% endif %}
 

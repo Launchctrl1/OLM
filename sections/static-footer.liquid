@@ -74,9 +74,9 @@
             {%- form 'localization' -%}
               <div class="selectors-form__item selectors-form--no-js-hidden">
                 <div class="disclosure" data-disclosure-locale>
-                  <h2 class="visually-hidden" id="lang-heading-{{ unique_id }}">
+                  <h4 class="visually-hidden" id="lang-heading-{{ unique_id }}">
                     {{ 'general.language.dropdown_label' | t }}
-                  </h2>
+                  </h4>
             
                   <button
                     type="button"
@@ -139,9 +139,9 @@
             {%- form 'localization' -%}
               <div class="selectors-form__item selectors-form--no-js-hidden">
                 <div class="disclosure" data-disclosure-country>
-                  <h2 class="visually-hidden" id="country-heading-{{ unique_id }}">
+                  <h4 class="visually-hidden" id="country-heading-{{ unique_id }}">
                     {{ 'general.country.dropdown_label' | t }}
-                  </h2>
+                  </h4>
             
                   <button
                     type="button"
@@ -237,9 +237,9 @@
             {{ 'footer.general.copyright_html' | t: year: year, shop_name: shop.name }}
           </p>
 
-          <p class="site-footer-credits">
+          {% comment %} <p class="site-footer-credits">
             {{ powered_by_link }}
-          </p>
+          </p> {% endcomment %}
         </div>
 
         {{ footer_right_column }}

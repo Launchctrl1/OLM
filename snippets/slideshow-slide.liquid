@@ -8,6 +8,7 @@
   assign block_button_label_2 = block.settings.button_two_label | escape
   assign block_button_link_2 = block.settings.button_two_link
   assign block_text_alignment = block.settings.text_alignment
+  assign block_text_alignment_mobile = block.settings.mobtext_alignment
   assign block_text_color = block.settings.color
   assign block_background_link = block.settings.link
 
@@ -24,7 +25,26 @@
   assign block_button_1_class = 'slideshow-slide__button--' | append: block.settings.button_one_style
   assign block_button_2_class = 'slideshow-slide__button--' | append: block.settings.button_two_style
 %}
+<style>
+@media screen and (max-width: 749px) {
 
+  #shopify-section-{{ section.id }} .slideshow-slide__content--text-mobile-left {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  #shopify-section-{{ section.id }} .slideshow-slide__content--text-mobile-center {
+    text-align: center;
+    align-items: center;
+  }
+
+  #shopify-section-{{ section.id }} .slideshow-slide__content--text-mobile-right {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+}
+</style>
 {% comment %}Inject @pixelunion/pxs-slideshow/slideshow-slide begin{% endcomment %}
 {%- comment -%}
   @param block_index {Number}
@@ -175,6 +195,7 @@
       slideshow-slide__content
       slideshow-slide__content--{{ block.id }}
       {% if block_text_alignment %}slideshow-slide__content--text-{{ block_text_alignment }}{% endif %}
+      {% if block_text_alignment_mobile %}slideshow-slide__content--text-mobile-{{ block_text_alignment_mobile }}{% endif %}
     "
     data-slide-content
   >

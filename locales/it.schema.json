@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "newsletter": {
@@ -91,7 +82,7 @@
       },
       "api_key": {
         "label": "Chiave API di Google Maps",
-        "info": "Devi abilitare le chiavi API sia di [Google Maps](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) sia di [Geocoding](https://developers.google.com/maps/documentation/geocoding/get-api-key) per visualizzare la mappa."
+        "info": "Devi abilitare le chiavi API sia di [Google Maps](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) sia di [Geocoding](https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key) per visualizzare la mappa."
       },
       "enable_custom_colors": {
         "label": "Utilizza colori personalizzati per la mappa"
@@ -184,7 +175,7 @@
         "form": {
           "show_gift_card_recipient_form": {
             "label": "Mostra il modulo delle informazioni sul destinatario per i prodotti di carte regalo",
-            "info": "I prodotti di carte regalo possono essere inviati opzionalmente direttamente al destinatario insieme a un messaggio personale. [Ulteriori informazioni](https://help.shopify.com/it/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+            "info": "I prodotti di carte regalo possono essere inviati opzionalmente direttamente al destinatario insieme a un messaggio personale. [Ulteriori informazioni](https:\/\/help.shopify.com\/it\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
           },
           "name": "Form",
           "paragraph_1": {
@@ -195,14 +186,14 @@
           },
           "enable_local_pickup": {
             "label": "Abilita ritiro in loco",
-            "info": "Includere l'indicatore di disponibilità per il ritiro locale. Disattiva per escludere le informazioni per l'inventario locale. [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360056378914)"
+            "info": "Includere l'indicatore di disponibilità per il ritiro locale. Disattiva per escludere le informazioni per l'inventario locale. [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360056378914)"
           }
         },
         "complementary_products": {
           "name": "Prodotti complementari",
           "settings": {
             "paragraph": {
-              "content": "Aggiungi l'app Search & Discovery per selezionare i prodotti complementari. [Maggiori informazioni](https://shopify.dev/themes/product-merchandising/recommendations)"
+              "content": "Aggiungi l'app Search & Discovery per selezionare i prodotti complementari. [Maggiori informazioni](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
             },
             "heading": {
               "label": "Titolo"
@@ -302,7 +293,7 @@
           },
           "inventory_transfer_notice": {
             "label": "Mostra avviso di trasferimento dell'inventario",
-            "info": "[Ulteriori informazioni](https://help.shopify.com/en/manual/products/inventory/transfers/create-transfer) sui trasferimenti di inventario."
+            "info": "[Ulteriori informazioni](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/transfers\/create-transfer) sui trasferimenti di inventario."
           }
         },
         "price": {
@@ -311,7 +302,7 @@
         "product_rating": {
           "name": "Valutazione prodotto",
           "paragraph_1": {
-            "content": "Per visualizzare una valutazione, aggiungi un'app di valutazione del prodotto. [Per saperne di più](https://apps.shopify.com/product-reviews)"
+            "content": "Per visualizzare una valutazione, aggiungi un'app di valutazione del prodotto. [Per saperne di più](https:\/\/apps.shopify.com\/product-reviews)"
           }
         },
         "request_quote": {
@@ -389,7 +380,7 @@
         "content": "Media"
       },
       "paragraph_1": {
-        "content": "Ulteriori informazioni su [tipi di media](https://help.shopify.com/en/manual/products/product-media/product-media-types)"
+        "content": "Ulteriori informazioni su [tipi di media](https:\/\/help.shopify.com\/en\/manual\/products\/product-media\/product-media-types)"
       },
       "gallery_aspect_ratio": {
         "label": "Proporzioni",
@@ -437,7 +428,7 @@
       },
       "enable_local_pickup": {
         "label": "Abilita ritiro in loco",
-        "info": "Includere l'indicatore di disponibilità per il ritiro locale. Disattiva per escludere le informazioni per l'inventario locale. [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360056378914)"
+        "info": "Includere l'indicatore di disponibilità per il ritiro locale. Disattiva per escludere le informazioni per l'inventario locale. [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360056378914)"
       },
       "social_share": {
         "label": "Mostra icone di condivisione"
@@ -1394,7 +1385,7 @@
       },
       "filter_search_by": {
         "label": "Ricerca dettagliata",
-        "info": "Consenti ai clienti di affinare la ricerca. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360025901534-Customizing-Empire-s-header-Search-bar)",
+        "info": "Consenti ai clienti di affinare la ricerca. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360025901534-Customizing-Empire-s-header-Search-bar)",
         "option_1": "Disabilitata",
         "option_2": "Per tipo di prodotto",
         "option_3": "Per tag"
@@ -1738,7 +1729,7 @@
     "quick_shop": {
       "name": "Acquisto veloce",
       "paragraph_1": {
-        "content": "Visita la griglia del prodotto nelle impostazioni del tema per abilitare l'acquisto veloce. [Personalizzazione dell'acquisto veloce](https://support.pixelunion.net/hc/en-us/articles/4404510868115)"
+        "content": "Visita la griglia del prodotto nelle impostazioni del tema per abilitare l'acquisto veloce. [Personalizzazione dell'acquisto veloce](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/4404510868115)"
       }
     },
     "announcement_bar": {
@@ -1865,7 +1856,7 @@
         "label": "Mostra il menu a discesa \"Ordina per\""
       },
       "grid_list": {
-        "label": "Mostra selettore per visualizzazione griglia/elenco"
+        "label": "Mostra selettore per visualizzazione griglia\/elenco"
       },
       "default_view": {
         "label": "Visualizzazione predefinita",
@@ -1877,7 +1868,7 @@
       },
       "enable_subcollection": {
         "label": "Abilita sottoraccolta",
-        "info": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026084433)"
+        "info": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026084433)"
       },
       "show_product_count": {
         "label": "Mostra i conteggi dei prodotti"
@@ -1907,7 +1898,7 @@
           },
           "menu_depth_range": {
             "label": "Visibilità profondità del menu",
-            "info": "[Maggiori informazioni](https://help.shopify.com/manual/sell-online/online-store/menus-and-links#create-a-drop-down-menu)"
+            "info": "[Maggiori informazioni](https:\/\/help.shopify.com\/manual\/sell-online\/online-store\/menus-and-links#create-a-drop-down-menu)"
           }
         },
         "filters": {
@@ -1947,23 +1938,23 @@
           },
           "grid_categories": {
             "label": "Visualizza filtri come griglia",
-            "info": "Elenca i gruppi da visualizzare in un formato griglia alternativo, ad esempio \"Taglia, Prezzo\". [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026081933-Setting-up-product-tag-filters-in-Empire#h_01EF06YZPQ09XNM718ACPA2ZXP)"
+            "info": "Elenca i gruppi da visualizzare in un formato griglia alternativo, ad esempio \"Taglia, Prezzo\". [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026081933-Setting-up-product-tag-filters-in-Empire#h_01EF06YZPQ09XNM718ACPA2ZXP)"
           },
           "custom_ordered_categories": {
             "label": "Ordine gruppi",
-            "info": "Definisci un ordine personalizzato per i gruppi, come \"Colore, Marca, Taglia\". Altri gruppi appariranno in fondo. [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026081933-Setting-up-product-tag-filters-in-Empire#h_01EF06ZAQF1S8VFM3HY70BT98H)"
+            "info": "Definisci un ordine personalizzato per i gruppi, come \"Colore, Marca, Taglia\". Altri gruppi appariranno in fondo. [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026081933-Setting-up-product-tag-filters-in-Empire#h_01EF06ZAQF1S8VFM3HY70BT98H)"
           },
           "custom_ordered_tags": {
             "label": "Ordine dei tag",
-            "info": "Definisci un ordine personalizzato per i tag, come \"Taglia_S, Taglia_M, Taglia_L\". Gli elementi devono corrispondere esattamente al nome del tag, incluso il prefisso del gruppo. Altri tag appariranno in fondo. [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026081933#h_01G1GS9YC5GAWX7A10PQZKCK3D)"
+            "info": "Definisci un ordine personalizzato per i tag, come \"Taglia_S, Taglia_M, Taglia_L\". Gli elementi devono corrispondere esattamente al nome del tag, incluso il prefisso del gruppo. Altri tag appariranno in fondo. [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026081933#h_01G1GS9YC5GAWX7A10PQZKCK3D)"
           },
           "excluded_tags": {
             "label": "Escludi tag",
-            "info": "Specifica quali tag devono essere nascosti ai tuoi clienti, ad esempio \"Rosso, T-shirt, Piccolo\". Per escludere un tag di gruppo, assicurati di specificare il nome completo del tag. Ad esempio: \"Taglia_Media\". [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026081933#h_01F3ZWFDQ6625XJJCKRNAPTYKQ)"
+            "info": "Specifica quali tag devono essere nascosti ai tuoi clienti, ad esempio \"Rosso, T-shirt, Piccolo\". Per escludere un tag di gruppo, assicurati di specificare il nome completo del tag. Ad esempio: \"Taglia_Media\". [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026081933#h_01F3ZWFDQ6625XJJCKRNAPTYKQ)"
           },
           "excluded_groups": {
             "label": "Escludi gruppi",
-            "info": "Specifica quali gruppi devono essere nascosti ai tuoi clienti, ad esempio \"Colore, Marca, Taglia\". Questo nasconderà l'intestazione del gruppo insieme a tutti i tag all'interno del gruppo. [Ulteriori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026081933)"
+            "info": "Specifica quali gruppi devono essere nascosti ai tuoi clienti, ad esempio \"Colore, Marca, Taglia\". Questo nasconderà l'intestazione del gruppo insieme a tutti i tag all'interno del gruppo. [Ulteriori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026081933)"
           }
         }
       }
@@ -1978,14 +1969,14 @@
       },
       "header_2": {
         "content": "Selettore della lingua",
-        "info": "Per aggiungere una lingua, vai alle tue [impostazioni della lingua.](/admin/settings/languages)"
+        "info": "Per aggiungere una lingua, vai alle tue [impostazioni della lingua.](\/admin\/settings\/languages)"
       },
       "show_locale_selector": {
         "label": "Mostra il selettore della lingua"
       },
       "header_3": {
         "content": "Selettore Paese",
-        "info": "Per aggiungere un paese, vai alle tue [impostazioni di pagamento.](/admin/settings/payments)"
+        "info": "Per aggiungere un paese, vai alle tue [impostazioni di pagamento.](\/admin\/settings\/payments)"
       },
       "show_currency_selector": {
         "label": "Mostra il selettore del paese"
@@ -1999,7 +1990,7 @@
       },
       "header_5": {
         "content": "Segui su Shop",
-        "info": "Mostra il pulsante segui per la tua vetrina virtuale nell'app Shop. [Maggiori informazioni](https://help.shopify.com/it/manual/online-store/themes/customizing-themes/follow-on-shop)"
+        "info": "Mostra il pulsante segui per la tua vetrina virtuale nell'app Shop. [Maggiori informazioni](https:\/\/help.shopify.com\/it\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
       },
       "show_follow_on_shop": {
         "label": "Abilita Segui su Shop"
@@ -2062,7 +2053,7 @@
       },
       "filter_search_by": {
         "label": "Ricerca dettagliata",
-        "info": "Consenti ai clienti di affinare la ricerca. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360025901534-Customizing-Empire-s-header-Search-bar)",
+        "info": "Consenti ai clienti di affinare la ricerca. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360025901534-Customizing-Empire-s-header-Search-bar)",
         "option_1": "Disabilitata",
         "option_2": "Per tipo di prodotto",
         "option_3": "Per tag"
@@ -2296,7 +2287,7 @@
       "name": "Prodotti correlati",
       "show_product_recommendations": {
         "label": "Mostra consigli dinamici",
-        "info": "I consigli dinamici cambiano e migliorano con il tempo. [Ulteriori informazioni](https://help.shopify.com/en/themes/development/recommended-products)"
+        "info": "I consigli dinamici cambiano e migliorano con il tempo. [Ulteriori informazioni](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
       },
       "product_recommendations_heading": {
         "label": "Intestazione"
@@ -2337,7 +2328,7 @@
     "subcollections": {
       "name": "Sottoraccolte",
       "paragraph_1": {
-        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026084433)"
+        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026084433)"
       },
       "header_1": {
         "content": "Intestazione"
@@ -2386,7 +2377,7 @@
     "subcollections_grid": {
       "name": "Griglia sottoraccolte",
       "paragraph_1": {
-        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026084433)"
+        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026084433)"
       },
       "header_1": {
         "content": "Intestazione"
@@ -2428,7 +2419,7 @@
     "subcollections_menu_list": {
       "name": "Elenco menu sottoraccolte",
       "paragraph_1": {
-        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https://support.pixelunion.net/hc/en-us/articles/360026084433)"
+        "content": "Collega le tue sottoraccolte creando un menu a livelli con maniglie corrispondenti. [Maggiori informazioni](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/360026084433)"
       },
       "header_1": {
         "content": "Intestazione"
@@ -2511,14 +2502,14 @@
       },
       "header_4": {
         "content": "Selettore della lingua",
-        "info": "Per aggiungere una lingua, vai alle tue [impostazioni della lingua.](/admin/settings/languages)"
+        "info": "Per aggiungere una lingua, vai alle tue [impostazioni della lingua.](\/admin\/settings\/languages)"
       },
       "show_locale_selector": {
         "label": "Mostra il selettore della lingua"
       },
       "header_5": {
         "content": "Selettore Paese",
-        "info": "Per aggiungere un paese, vai alle tue [impostazioni di pagamento.](/admin/settings/payments)"
+        "info": "Per aggiungere un paese, vai alle tue [impostazioni di pagamento.](\/admin\/settings\/payments)"
       },
       "show_currency_selector": {
         "label": "Mostra il selettore del paese"
@@ -2548,7 +2539,7 @@
       },
       "show_logo": {
         "label": "Mostra logo",
-        "info": "Vai su [impostazioni del marchio](/admin/settings/branding) per modificare il logo."
+        "info": "Vai su [impostazioni del marchio](\/admin\/settings\/branding) per modificare il logo."
       }
     },
     "colors": {
@@ -2764,7 +2755,7 @@
       },
       "inventory_transfer_notice": {
         "label": "Mostra avviso di trasferimento dell'inventario",
-        "info": "[Ulteriori informazioni](https://help.shopify.com/en/manual/products/inventory/transfers/create-transfer) sui trasferimenti di inventario."
+        "info": "[Ulteriori informazioni](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/transfers\/create-transfer) sui trasferimenti di inventario."
       },
       "low_stock_threshold": {
         "label": "Soglia di scorte in esaurimento"
@@ -2789,7 +2780,7 @@
       },
       "show_dynamic_checkout_button": {
         "label": "Mostra bottone di pagamento dinamico",
-        "info": "Ogni cliente vedrà il proprio metodo di pagamento preferito tra quelli disponibili sul tuo negozio, come PayPal o Apple Pay. [Ulteriori informazioni](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+        "info": "Ogni cliente vedrà il proprio metodo di pagamento preferito tra quelli disponibili sul tuo negozio, come PayPal o Apple Pay. [Ulteriori informazioni](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
       },
       "enable_cart_redirection": {
         "label": "Abilita il reindirizzamento del carrello",
@@ -2877,7 +2868,7 @@
       },
       "product_grid_enable_quickshop": {
         "label": "Abilita acquisto veloce",
-        "info": "Ulteriori informazioni sulla [personalizzazione dell'acquisto veloce](https://support.pixelunion.net/hc/en-us/articles/4404510868115)"
+        "info": "Ulteriori informazioni sulla [personalizzazione dell'acquisto veloce](https:\/\/support.pixelunion.net\/hc\/en-us\/articles\/4404510868115)"
       },
       "product_grid_quick_shop_display": {
         "label": "Bottone \"Acquisto veloce\"",

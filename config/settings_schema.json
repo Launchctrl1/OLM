@@ -4,8 +4,8 @@
     "theme_name": "Empire",
     "theme_author": "Pixel Union",
     "theme_version": "9.1.1",
-    "theme_documentation_url": "http://support.pixelunion.net/category/385-empire",
-    "theme_support_url": "https://support.pixelunion.net/hc/en-us/requests/new"
+    "theme_documentation_url": "http:\/\/support.pixelunion.net\/category\/385-empire",
+    "theme_support_url": "https:\/\/support.pixelunion.net\/hc\/en-us\/requests\/new"
   },
   {
     "name": "t:settings_schema.age_gate.name",
@@ -799,25 +799,25 @@
         "type": "text",
         "id": "social_behance",
         "label": "Behance",
-        "info": "https://behance.net/"
+        "info": "https:\/\/behance.net\/"
       },
       {
         "type": "text",
         "id": "social_clubhouse",
         "label": "Clubhouse",
-        "info": "https://www.clubhouse.com/"
+        "info": "https:\/\/www.clubhouse.com\/"
       },
       {
         "type": "text",
         "id": "social_discord",
         "label": "Discord",
-        "info": "https://discord.com/"
+        "info": "https:\/\/discord.com\/"
       },
       {
         "type": "text",
         "id": "social_dribbble",
         "label": "Dribbble",
-        "info": "https://dribbble.com/shopify"
+        "info": "https:\/\/dribbble.com\/shopify"
       },
       {
         "type": "text",
@@ -828,127 +828,127 @@
         "type": "text",
         "id": "social_facebook",
         "label": "Facebook",
-        "info": "https://www.facebook.com/shopify"
+        "info": "https:\/\/www.facebook.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_flickr",
         "label": "Flickr",
-        "info": "https://flickr.com/"
+        "info": "https:\/\/flickr.com\/"
       },
       {
         "type": "text",
         "id": "social_houzz",
         "label": "Houzz",
-        "info": "https://www.houzz.com/"
+        "info": "https:\/\/www.houzz.com\/"
       },
       {
         "type": "text",
         "id": "social_instagram",
         "label": "Instagram",
-        "info": "https://instagram.com/shopify"
+        "info": "https:\/\/instagram.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_kickstarter",
         "label": "Kickstarter",
-        "info": "https://www.kickstarter.com/"
+        "info": "https:\/\/www.kickstarter.com\/"
       },
       {
         "type": "text",
         "id": "social_linkedin",
         "label": "LinkedIn",
-        "info": "https://www.linkedin.com/company/shopify"
+        "info": "https:\/\/www.linkedin.com\/company\/shopify"
       },
       {
         "type": "text",
         "id": "social_medium",
         "label": "Medium",
-        "info": "https://medium.com/"
+        "info": "https:\/\/medium.com\/"
       },
       {
         "type": "text",
         "id": "social_messenger",
         "label": "Messenger",
-        "info": "https://www.messenger.com/"
+        "info": "https:\/\/www.messenger.com\/"
       },
       {
         "type": "text",
         "id": "social_opensea",
         "label": "OpenSea",
-        "info": "https://opensea.io/"
+        "info": "https:\/\/opensea.io\/"
       },
       {
         "type": "text",
         "id": "social_pinterest",
         "label": "Pinterest",
-        "info": "https://www.pinterest.com/shopify"
+        "info": "https:\/\/www.pinterest.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_reddit",
         "label": "Reddit",
-        "info": "https://www.reddit.com/r/shopify/"
+        "info": "https:\/\/www.reddit.com\/r\/shopify\/"
       },
       {
         "type": "text",
         "id": "social_rss",
         "label": "RSS",
-        "info": "https://www.shopify.com/content-services/feeds/ecommerce.atom"
+        "info": "https:\/\/www.shopify.com\/content-services\/feeds\/ecommerce.atom"
       },
       {
         "type": "text",
         "id": "social_snapchat",
         "label": "Snapchat",
-        "info": "https://www.snapchat.com/"
+        "info": "https:\/\/www.snapchat.com\/"
       },
       {
         "type": "text",
         "id": "social_spotify",
         "label": "Spotify",
-        "info": "https://www.spotify.com/"
+        "info": "https:\/\/www.spotify.com\/"
       },
       {
         "type": "text",
         "id": "social_tiktok",
         "label": "TikTok",
-        "info": "https://tiktok.com/@shopify"
+        "info": "https:\/\/tiktok.com\/@shopify"
       },
       {
         "type": "text",
         "id": "social_tumblr",
         "label": "Tumblr",
-        "info": "https://shopify.tumblr.com"
+        "info": "https:\/\/shopify.tumblr.com"
       },
       {
         "type": "text",
         "id": "social_twitch",
         "label": "Twitch",
-        "info": "https://www.twitch.tv/"
+        "info": "https:\/\/www.twitch.tv\/"
       },
       {
         "type": "text",
         "id": "social_twitter",
         "label": "Twitter",
-        "info": "https://twitter.com/shopify"
+        "info": "https:\/\/twitter.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_vimeo",
         "label": "Vimeo",
-        "info": "https://vimeo.com/"
+        "info": "https:\/\/vimeo.com\/"
       },
       {
         "type": "text",
         "id": "social_whatsapp",
         "label": "WhatsApp",
-        "info": "https://www.whatsapp.com/"
+        "info": "https:\/\/www.whatsapp.com\/"
       },
       {
         "type": "text",
         "id": "social_youtube",
         "label": "YouTube",
-        "info": "https://www.youtube.com/user/shopify"
+        "info": "https:\/\/www.youtube.com\/user\/shopify"
       }
     ]
   },

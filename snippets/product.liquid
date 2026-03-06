@@ -43,13 +43,19 @@
 
   if layout == 'layout--three-col'
     assign product_form = true
+    assign has_inventory_status_block = false
+    assign has_custom_continue_message = false
   else
     assign product_form = false
+    assign has_inventory_status_block = false
+    assign has_custom_continue_message = false
     for block in section.blocks
       case block.type
         when 'form'
           assign product_form = true
           assign show_recipient_form = block.settings.show_gift_card_recipient_form
+        when 'inventory_status'
+          assign has_inventory_status_block = true
       endcase
     endfor
   endif
@@ -191,6 +197,7 @@
                   inventory_transfer: block.settings.inventory_transfer_notice,
                   variant: variant,
                   verbose: true,
+                  continue_selling_as_no_stock: true,
                 %}
               {% endfor %}
 
@@ -303,6 +310,27 @@
 
                 <form data-payment-terms-target style="display: none;"></form>
               </div>
+
+              {% unless has_inventory_status_block %}
+                {% for variant in product.variants %}
+                  {% if variant.inventory_management and variant.inventory_policy == 'continue' and variant.inventory_quantity <= 0 %}
+                    <div
+                      class="product-stock-level-wrapper product-stock-level-wrapper--continue-order"
+                      data-stock-level
+                      data-stock-variant-id="{{ variant.id }}"
+                      data-stock-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
+                    >
+                      <span class="product-stock-level product-stock-level--none">
+                        <span class="product-stock-level__text">
+                          <div class="product-stock-level__badge-text">
+                            {{ 'product.status.no_stock_with_lead_time' | t: inventory_quantity: variant.inventory_quantity }}
+                          </div>
+                        </span>
+                      </span>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endunless %}
 
             {% when 'sku' %}
               {% unless onboarding %}
@@ -467,9 +495,31 @@
               {% endif %}
 
             {% when '@app' %}
-              <div class="product-app">
-                {% render block %}
-              </div>
+              {% if block.type contains 'shopify://apps/delivery-estimator/' %}
+                {% assign has_custom_continue_message = true %}
+                {% for variant in product.variants %}
+                  {% if variant.inventory_management and variant.inventory_policy == 'continue' and variant.inventory_quantity <= 0 %}
+                    <div
+                      class="product-stock-level-wrapper"
+                      data-stock-level
+                      data-stock-variant-id="{{ variant.id }}"
+                      data-stock-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
+                    >
+                      <span class="product-stock-level product-stock-level--none">
+                        <span class="product-stock-level__text">
+                          <div class="product-stock-level__badge-text">
+                            {{ 'product.status.no_stock_with_lead_time' | t: inventory_quantity: variant.inventory_quantity }}
+                          </div>
+                        </span>
+                      </span>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% else %}
+                <div class="product-app">
+                  {% render block %}
+                </div>
+              {% endif %}
 
             {% when 'view-product-link' %}
               <a

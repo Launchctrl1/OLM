@@ -427,13 +427,36 @@
                 {% endif %}
               {% endunless %}
 
-              {%
-                render 'product-stock-level',
-                inventory_display: settings.inventory_display,
-                inventory_transfer: settings.inventory_transfer_notice,
-                variant: product.selected_or_first_available_variant,
-                verbose: false,
-              %}
+              {% assign product_card_variant = product.selected_or_first_available_variant %}
+              {% if product_card_variant.inventory_management and product_card_variant.inventory_policy == 'continue' and product_card_variant.inventory_quantity <= 0 %}
+                <div class="product-stock-level-wrapper">
+                  <span class="product-stock-level product-stock-level--none">
+                    <span class="product-stock-level__text">
+                      <div class="product-stock-level__badge-text">
+                        {{ 'product.status.no_stock' | t: inventory_quantity: product_card_variant.inventory_quantity }}
+                      </div>
+                    </span>
+                  </span>
+                </div>
+              {% elsif product_card_variant.inventory_management and product_card_variant.inventory_quantity <= 0 %}
+                <div class="product-stock-level-wrapper">
+                  <span class="product-stock-level product-stock-level--out-of-stock">
+                    <span class="product-stock-level__text">
+                      <div class="product-stock-level__badge-text">
+                        {{ 'store_availability.general.out_of_stock' | t }}
+                      </div>
+                    </span>
+                  </span>
+                </div>
+              {% else %}
+                {%
+                  render 'product-stock-level',
+                  inventory_display: settings.inventory_display,
+                  inventory_transfer: settings.inventory_transfer_notice,
+                  variant: product_card_variant,
+                  verbose: false,
+                %}
+              {% endif %}
             </div>
           {% endif %}
 
